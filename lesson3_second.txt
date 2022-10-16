@@ -1,0 +1,22 @@
+   0 mkdir -p /home/user/start | touch /home/user/start/1.txt
+   1 echo "Start" > /home/user/start/1.txt 
+   2 date >> /home//user/start/1.txt 
+   3 mkdir /opt/task | cp /home/user/start/1.txt /opt/task/start.txt
+   4 cd /bin | ls -la | tail -4 >> /opt/task/start.txt 
+   5 cd /dev | ls -la | tail -4 >> /opt/task/start.txt 
+   6 cd /etc | ls -la | tail -4 >> /opt/task/start.txt 
+   7 cd /home | ls -la | tail -4 >> /opt/task/start.txt 
+   8 cd /lib | ls -la | tail -4 >> /opt/task/start.txt 
+   9 cd /media | ls -la | tail -4 >> /opt/task/start.txt 
+  10 cd /mnt | ls -la | tail -4 >> /opt/task/start.txt 
+  11 cd /opt | ls -la | tail -4 >> /opt/task/start.txt 
+  12 cd /proc | ls -la | tail -4 >> /opt/task/start.txt 
+  13 cd /root | ls -la | tail -4 >> /opt/task/start.txt 
+  14 cd /run | ls -la | tail -4 >> /opt/task/start.txt 
+  15 cd /sbin | ls -la | tail -4 >> /opt/task/start.txt 
+  16 cd /srv | ls -la | tail -4 >> /opt/task/start.txt 
+  17 cd /sys | ls -la | tail -4 >> /opt/task/start.txt 
+  18 cd /tmp | ls -la | tail -4 >> /opt/task/start.txt 
+  19 cd /usr | ls -la | tail -4 >> /opt/task/start.txt 
+  20 cd /var | ls -la | tail -4 >> /opt/task/start.txt 
+  21 history >/home/lesson3_second.txt
